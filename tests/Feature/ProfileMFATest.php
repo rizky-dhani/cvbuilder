@@ -28,3 +28,23 @@ test('profile page contains MFA settings', function () {
         ->assertSee('Two-factor authentication (2FA)')
         ->assertSee('Email verification codes');
 });
+
+test('can update profile and redirects to profile page', function () {
+    $user = User::factory()->create();
+    $this->actingAs($user);
+
+    Livewire::test(EditProfile::class)
+        ->set('data.name', 'Updated Name')
+        ->set('data.email', 'updated@example.com')
+        ->set('data.currentPassword', 'password')
+        ->call('save')
+        ->assertHasNoFormErrors()
+        ->assertNotified('Profile successfully updated')
+        ->assertRedirect(EditProfile::getUrl());
+
+    $this->assertDatabaseHas('users', [
+        'id' => $user->id,
+        'name' => 'Updated Name',
+        'email' => 'updated@example.com',
+    ]);
+});
