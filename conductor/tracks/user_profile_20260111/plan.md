@@ -57,7 +57,7 @@ Finalize the user experience and ensure seamless navigation.
     - [ ] Implement model, migration, factory and Filament resource (if any needed) or update Dashboard logic.
     - [ ] Run `php artisan filament:optimize-clear && php artisan optimize:clear`.
     - [ ] Write and run tests.
-- [ ] **Task: Final Verification**
+- [x] **Task: Final Verification**
     - [ ] Perform manual end-to-end check of the user onboarding and data entry flow.
     - [ ] Run full test suite to ensure 99% coverage.
-- [ ] **Task: Conductor - User Manual Verification 'Dashboard Integration & Polishing' (Protocol in workflow.md)**
+- [x] **Task: Conductor - User Manual Verification 'Dashboard Integration & Polishing' (Protocol in workflow.md)**
