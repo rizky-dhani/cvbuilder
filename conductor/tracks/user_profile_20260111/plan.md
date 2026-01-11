@@ -39,7 +39,7 @@ Implement the data structure and management interface for academic history.
     - [ ] Implement `EducationResource`.
 - [x] **Task: Conductor - User Manual Verification 'Education Module' (Protocol in workflow.md)**
 
-## Phase 4: Skills & Certifications Module
+## Phase 4: Skills & Certifications Module [checkpoint: 2e68f49]
 Implement the data structure and management interface for skills and professional credentials.
 
 - [x] **Task: Skills Model & Resource** 870202d, fa558e8
