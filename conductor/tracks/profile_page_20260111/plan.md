@@ -25,12 +25,12 @@ Enable the profile and multi-factor authentication features in the UI.
 ## Phase 3: Verification & Polish
 Ensure the end-to-end security flow and user experience are seamless.
 
-- [ ] **Task: Verify MFA Login Flow**
+- [x] **Task: Verify MFA Login Flow**
     - [ ] Implementation Phase: Ensure no further logic is needed for the email code challenge during login.
     - [ ] Cache Optimization Phase: Run `php artisan filament:optimize-clear && php artisan optimize:clear`.
     - [ ] Testing Phase: Perform a manual end-to-end test of enabling MFA and logging in with an email code.
-- [ ] **Task: Verify Notifications & Redirection**
-    - [ ] Implementation Phase: Confirm notifications and redirections match project guidelines.
-    - [ ] Cache Optimization Phase: Run `php artisan filament:optimize-clear && php artisan optimize:clear`.
-    - [ ] Testing Phase: Run full test suite to ensure 99% coverage.
+- [x] **Task: Verify Notifications & Redirection** eadc8b6
+    - [x] Implementation Phase: Confirm notifications and redirections match project guidelines. Override if necessary.
+    - [x] Cache Optimization Phase: Run `php artisan filament:optimize-clear && php artisan optimize:clear`.
+    - [x] Testing Phase: Run full test suite to ensure 99% coverage.
 - [ ] **Task: Conductor - User Manual Verification 'Verification & Polish' (Protocol in workflow.md)**
