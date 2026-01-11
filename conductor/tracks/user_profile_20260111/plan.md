@@ -42,7 +42,7 @@ Implement the data structure and management interface for academic history.
 ## Phase 4: Skills & Certifications Module
 Implement the data structure and management interface for skills and professional credentials.
 
-- [ ] **Task: Skills Model & Resource**
+- [x] **Task: Skills Model & Resource** 870202d
     - [ ] Write Tests for `Skill` model and resource.
     - [ ] Implement `Skill` model, migration, factory, and Filament resource.
 - [ ] **Task: Certifications Model & Resource**
