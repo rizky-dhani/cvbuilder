@@ -1,0 +1,59 @@
+# Plan: Build the Core User Profile & Master Record System
+
+## Phase 1: Environment & Filament Setup
+Establish the technical foundation by configuring the database and installing the primary UI framework.
+
+- [ ] **Task: Configure MySQL Database**
+    - [ ] Update `.env` and `config/database.php` for MySQL.
+    - [ ] Verify connection using `php artisan db:show`.
+- [ ] **Task: Install Filament v4**
+    - [ ] Run `composer require filament/filament:"^4.0" -W`.
+    - [ ] Install Filament panel: `php artisan filament:install --panels`.
+    - [ ] Configure the default panel to handle authentication.
+- [ ] **Task: Conductor - User Manual Verification 'Environment & Filament Setup' (Protocol in workflow.md)**
+
+## Phase 2: Work Experience Module
+Implement the data structure and management interface for professional history.
+
+- [ ] **Task: Work Experience Model & Migration**
+    - [ ] Write Unit Tests for `WorkExperience` model (relationships, validation).
+    - [ ] Implement `WorkExperience` model, migration, and factory.
+    - [ ] Run migrations.
+- [ ] **Task: Work Experience Filament Resource**
+    - [ ] Write Feature Tests for `WorkExperienceResource` (Access control, CRUD).
+    - [ ] Implement `WorkExperienceResource` with appropriate form/table schema.
+- [ ] **Task: Conductor - User Manual Verification 'Work Experience Module' (Protocol in workflow.md)**
+
+## Phase 3: Education Module
+Implement the data structure and management interface for academic history.
+
+- [ ] **Task: Education Model & Migration**
+    - [ ] Write Unit Tests for `Education` model.
+    - [ ] Implement `Education` model, migration, and factory.
+    - [ ] Run migrations.
+- [ ] **Task: Education Filament Resource**
+    - [ ] Write Feature Tests for `EducationResource`.
+    - [ ] Implement `EducationResource`.
+- [ ] **Task: Conductor - User Manual Verification 'Education Module' (Protocol in workflow.md)**
+
+## Phase 4: Skills & Certifications Module
+Implement the data structure and management interface for skills and professional credentials.
+
+- [ ] **Task: Skills Model & Resource**
+    - [ ] Write Tests for `Skill` model and resource.
+    - [ ] Implement `Skill` model, migration, factory, and Filament resource.
+- [ ] **Task: Certifications Model & Resource**
+    - [ ] Write Tests for `Certification` model and resource.
+    - [ ] Implement `Certification` model, migration, factory, and Filament resource.
+- [ ] **Task: Conductor - User Manual Verification 'Skills & Certifications Module' (Protocol in workflow.md)**
+
+## Phase 5: Dashboard Integration & Polishing
+Finalize the user experience and ensure seamless navigation.
+
+- [ ] **Task: Dashboard Customization**
+    - [ ] Customize the Filament Dashboard to display a summary of the Master Record.
+    - [ ] Add navigation icons and group resources appropriately.
+- [ ] **Task: Final Verification**
+    - [ ] Run full test suite to ensure 99% coverage.
+    - [ ] Perform manual end-to-end check of the user onboarding and data entry flow.
+- [ ] **Task: Conductor - User Manual Verification 'Dashboard Integration & Polishing' (Protocol in workflow.md)**
