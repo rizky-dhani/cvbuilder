@@ -15,7 +15,7 @@ Establish the technical foundation by configuring the database and installing th
     - [ ] Verify access to Mailpit UI (usually port 8025).
 - [x] **Task: Conductor - User Manual Verification 'Environment & Filament Setup' (Protocol in workflow.md)**
 
-## Phase 2: Work Experience Module
+## Phase 2: Work Experience Module [checkpoint: 72e8154]
 Implement the data structure and management interface for professional history.
 
 - [x] **Task: Work Experience Model & Migration** 9fd0528
