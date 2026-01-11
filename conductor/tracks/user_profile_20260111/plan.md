@@ -30,7 +30,7 @@ Implement the data structure and management interface for professional history.
 ## Phase 3: Education Module
 Implement the data structure and management interface for academic history.
 
-- [ ] **Task: Education Model & Migration**
+- [x] **Task: Education Model & Migration** 9866fb8
     - [ ] Write Unit Tests for `Education` model.
     - [ ] Implement `Education` model, migration, and factory.
     - [ ] Run migrations.
