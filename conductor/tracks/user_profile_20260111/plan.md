@@ -34,7 +34,7 @@ Implement the data structure and management interface for academic history.
     - [ ] Write Unit Tests for `Education` model.
     - [ ] Implement `Education` model, migration, and factory.
     - [ ] Run migrations.
-- [ ] **Task: Education Filament Resource**
+- [x] **Task: Education Filament Resource** 9866fb8, cb51a1a
     - [ ] Write Feature Tests for `EducationResource`.
     - [ ] Implement `EducationResource`.
 - [ ] **Task: Conductor - User Manual Verification 'Education Module' (Protocol in workflow.md)**
