@@ -18,7 +18,7 @@ Establish the technical foundation by configuring the database and installing th
 ## Phase 2: Work Experience Module
 Implement the data structure and management interface for professional history.
 
-- [ ] **Task: Work Experience Model & Migration**
+- [x] **Task: Work Experience Model & Migration** 9fd0528
     - [ ] Write Unit Tests for `WorkExperience` model (relationships, validation).
     - [ ] Implement `WorkExperience` model, migration, and factory.
     - [ ] Run migrations.
