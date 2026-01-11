@@ -44,7 +44,7 @@ test('can create work experience', function () {
         ->set('data.description', $newData->description)
         ->call('create')
         ->assertHasNoFormErrors()
-        ->assertNotified('Work experience saved!');
+        ->assertNotified('Work experience successfully created');
 
     $this->assertDatabaseHas(WorkExperience::class, [
         'user_id' => $this->user->id,
@@ -58,7 +58,7 @@ test('can delete work experience', function () {
 
     Livewire::test(ListWorkExperiences::class)
         ->callTableAction(DeleteAction::class, $workExperience)
-        ->assertNotified('Work experience removed');
+        ->assertNotified('Work experience successfully deleted');
 
     $this->assertModelMissing($workExperience);
 });

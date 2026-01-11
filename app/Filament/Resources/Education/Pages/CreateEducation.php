@@ -1,20 +1,20 @@
 <?php
 
-namespace App\Filament\Resources\WorkExperiences\Pages;
+namespace App\Filament\Resources\Education\Pages;
 
-use App\Filament\Resources\WorkExperiences\WorkExperienceResource;
+use App\Filament\Resources\Education\EducationResource;
 use Filament\Notifications\Notification;
 use Filament\Resources\Pages\CreateRecord;
 
-class CreateWorkExperience extends CreateRecord
+class CreateEducation extends CreateRecord
 {
-    protected static string $resource = WorkExperienceResource::class;
+    protected static string $resource = EducationResource::class;
 
     protected function getCreatedNotification(): ?Notification
     {
         return Notification::make()
             ->success()
-            ->title('Work experience successfully created');
+            ->title('Education successfully created');
     }
 
     protected function mutateFormDataBeforeCreate(array $data): array
