@@ -25,7 +25,7 @@ Implement the data structure and management interface for professional history.
 - [x] **Task: Work Experience Filament Resource** 9ba9dc0, b960d77, fa558e8
     - [ ] Write Feature Tests for `WorkExperienceResource` (Access control, CRUD).
     - [ ] Implement `WorkExperienceResource` with appropriate form/table schema.
-- [ ] **Task: Conductor - User Manual Verification 'Work Experience Module' (Protocol in workflow.md)**
+- [x] **Task: Conductor - User Manual Verification 'Work Experience Module' (Protocol in workflow.md)**
 
 ## Phase 3: Education Module [checkpoint: 3458e71]
 Implement the data structure and management interface for academic history.
@@ -54,9 +54,10 @@ Implement the data structure and management interface for skills and professiona
 Finalize the user experience and ensure seamless navigation.
 
 - [ ] **Task: Dashboard Customization**
-    - [ ] Customize the Filament Dashboard to display a summary of the Master Record.
-    - [ ] Add navigation icons and group resources appropriately.
+    - [ ] Implement model, migration, factory and Filament resource (if any needed) or update Dashboard logic.
+    - [ ] Run `php artisan filament:optimize-clear && php artisan optimize:clear`.
+    - [ ] Write and run tests.
 - [ ] **Task: Final Verification**
-    - [ ] Run full test suite to ensure 99% coverage.
     - [ ] Perform manual end-to-end check of the user onboarding and data entry flow.
+    - [ ] Run full test suite to ensure 99% coverage.
 - [ ] **Task: Conductor - User Manual Verification 'Dashboard Integration & Polishing' (Protocol in workflow.md)**
