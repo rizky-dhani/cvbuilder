@@ -1,6 +1,6 @@
 # Plan: Add custom Remember Me option for Email Verification MFA
 
-## Phase 1: Extension & UI Implementation
+## Phase 1: Extension & UI Implementation [checkpoint: eba23e1]
 Extend the default Filament Email MFA provider to include the "Remember Me" option in the UI.
 
 - [x] **Task: Create Custom MFA Provider** d86e0cd
