@@ -66,7 +66,11 @@ This track focuses on establishing the core data foundation for the CV Builder. 
     - Automatically associate new records with the authenticated user.
     - Provide appropriate form fields (dates, rich text for descriptions, selects for skill levels).
 
-### 4. Quality Standards
+### 4. Local Email Testing (Mailpit)
+- Configure Mailpit for local email testing to verify email verification and password reset flows.
+- Default config: SMTP, host: localhost, port: 1025.
+
+### 5. Quality Standards
 - **Testing:** 99% coverage for all models, controllers (resources), and logic using Pest.
 - **TDD:** Write tests before implementation for each custom model and resource.
 - **Validation:** Strict validation in Filament Forms and via FormRequests if applicable.

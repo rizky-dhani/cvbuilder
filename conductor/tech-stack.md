@@ -15,5 +15,5 @@
 ## Quality & Development
 - **Testing:** Pest (Unit and Feature testing)
 - **Formatting:** Laravel Pint
-- **Debugging:** Laravel Pail, Laravel Tinker
+- **Debugging:** Laravel Pail, Laravel Tinker, Mailpit (Local email testing)
 - **Assistant:** Laravel Boost MCP (For specialized Laravel & Database operations)
