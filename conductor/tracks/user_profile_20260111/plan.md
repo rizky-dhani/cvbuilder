@@ -27,7 +27,7 @@ Implement the data structure and management interface for professional history.
     - [ ] Implement `WorkExperienceResource` with appropriate form/table schema.
 - [ ] **Task: Conductor - User Manual Verification 'Work Experience Module' (Protocol in workflow.md)**
 
-## Phase 3: Education Module
+## Phase 3: Education Module [checkpoint: 3458e71]
 Implement the data structure and management interface for academic history.
 
 - [x] **Task: Education Model & Migration** 9866fb8
