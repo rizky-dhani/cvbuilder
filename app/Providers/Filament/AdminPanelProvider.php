@@ -2,6 +2,7 @@
 
 namespace App\Providers\Filament;
 
+use App\Auth\MultiFactor\CustomEmailAuthentication;
 use Filament\Http\Middleware\Authenticate;
 use Filament\Http\Middleware\AuthenticateSession;
 use Filament\Http\Middleware\DisableBladeIconComponents;
@@ -12,7 +13,6 @@ use Filament\PanelProvider;
 use Filament\Support\Colors\Color;
 use Filament\Widgets\AccountWidget;
 use Filament\Widgets\FilamentInfoWidget;
-use Filament\Auth\MultiFactor\Email\EmailAuthentication;
 use Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse;
 use Illuminate\Cookie\Middleware\EncryptCookies;
 use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken;
@@ -34,7 +34,7 @@ class AdminPanelProvider extends PanelProvider
             ->emailVerification()
             ->profile(\App\Filament\Pages\Auth\EditProfile::class)
             ->multiFactorAuthentication([
-                EmailAuthentication::make(),
+                CustomEmailAuthentication::make(),
             ])
             ->colors([
                 'primary' => Color::Amber,
