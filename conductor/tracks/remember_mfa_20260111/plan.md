@@ -7,7 +7,7 @@ Extend the default Filament Email MFA provider to include the "Remember Me" opti
     - [ ] Implementation Phase: Create `App\Auth\MultiFactor\CustomEmailAuthentication` extending the base provider and register it in `AdminPanelProvider.php`.
     - [ ] Cache Optimization Phase: Run `php artisan filament:optimize-clear && php artisan optimize:clear`.
     - [ ] Testing Phase: Write and run a test to ensure the custom provider is active.
-- [ ] **Task: Add "Remember Me" Checkbox to Form**
+- [x] **Task: Add "Remember Me" Checkbox to Form** 8c54106
     - [ ] Implementation Phase: Customize the MFA challenge form components to add the "Remember this device for 90 days" checkbox.
     - [ ] Cache Optimization Phase: Run `php artisan filament:optimize-clear && php artisan optimize:clear`.
     - [ ] Testing Phase: Write and run a feature test to verify the checkbox is visible on the MFA entry page.
