@@ -1,6 +1,6 @@
 # Plan: Profile page implementation
 
-## Phase 1: Database & Model Preparation
+## Phase 1: Database & Model Preparation [checkpoint: 9c38414]
 Prepare the underlying structure to support the new security features.
 
 - [x] **Task: Add MFA column to Users table** 1ba73e9
