@@ -22,7 +22,7 @@ Implement the data structure and management interface for professional history.
     - [ ] Write Unit Tests for `WorkExperience` model (relationships, validation).
     - [ ] Implement `WorkExperience` model, migration, and factory.
     - [ ] Run migrations.
-- [x] **Task: Work Experience Filament Resource** 9ba9dc0, b960d77
+- [x] **Task: Work Experience Filament Resource** 9ba9dc0, b960d77, fa558e8
     - [ ] Write Feature Tests for `WorkExperienceResource` (Access control, CRUD).
     - [ ] Implement `WorkExperienceResource` with appropriate form/table schema.
 - [ ] **Task: Conductor - User Manual Verification 'Work Experience Module' (Protocol in workflow.md)**
@@ -34,7 +34,7 @@ Implement the data structure and management interface for academic history.
     - [ ] Write Unit Tests for `Education` model.
     - [ ] Implement `Education` model, migration, and factory.
     - [ ] Run migrations.
-- [x] **Task: Education Filament Resource** 9866fb8, cb51a1a
+- [x] **Task: Education Filament Resource** 9866fb8, cb51a1a, fa558e8
     - [ ] Write Feature Tests for `EducationResource`.
     - [ ] Implement `EducationResource`.
 - [x] **Task: Conductor - User Manual Verification 'Education Module' (Protocol in workflow.md)**
@@ -42,10 +42,10 @@ Implement the data structure and management interface for academic history.
 ## Phase 4: Skills & Certifications Module
 Implement the data structure and management interface for skills and professional credentials.
 
-- [x] **Task: Skills Model & Resource** 870202d
+- [x] **Task: Skills Model & Resource** 870202d, fa558e8
     - [ ] Write Tests for `Skill` model and resource.
     - [ ] Implement `Skill` model, migration, factory, and Filament resource.
-- [x] **Task: Certifications Model & Resource** 8f93aec
+- [x] **Task: Certifications Model & Resource** 8f93aec, fa558e8
     - [ ] Write Tests for `Certification` model and resource.
     - [ ] Implement `Certification` model, migration, factory, and Filament resource.
 - [ ] **Task: Conductor - User Manual Verification 'Skills & Certifications Module' (Protocol in workflow.md)**
