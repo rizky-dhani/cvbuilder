@@ -6,7 +6,7 @@ Establish the technical foundation by configuring the database and installing th
 - [x] **Task: Configure MySQL Database** e7f0ed6
     - [ ] Update `.env` and `config/database.php` for MySQL.
     - [ ] Verify connection using `php artisan db:show`.
-- [ ] **Task: Install Filament v4** 238a651
+- [x] **Task: Install Filament v4** 238a651, f37dec4
     - [x] Run `composer require filament/filament:"^4.0" -W`.
     - [x] Install Filament panel: `php artisan filament:install --panels`.
     - [x] Configure the `AdminPanel` to handle authentication (login, registration, etc.).
