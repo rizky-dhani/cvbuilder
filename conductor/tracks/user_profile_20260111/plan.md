@@ -48,7 +48,7 @@ Implement the data structure and management interface for skills and professiona
 - [x] **Task: Certifications Model & Resource** 8f93aec, fa558e8
     - [ ] Write Tests for `Certification` model and resource.
     - [ ] Implement `Certification` model, migration, factory, and Filament resource.
-- [ ] **Task: Conductor - User Manual Verification 'Skills & Certifications Module' (Protocol in workflow.md)**
+- [x] **Task: Conductor - User Manual Verification 'Skills & Certifications Module' (Protocol in workflow.md)**
 
 ## Phase 5: Dashboard Integration & Polishing
 Finalize the user experience and ensure seamless navigation.
