@@ -13,7 +13,7 @@ Extend the default Filament Email MFA provider to include the "Remember Me" opti
     - [ ] Testing Phase: Write and run a feature test to verify the checkbox is visible on the MFA entry page.
 - [x] **Task: Conductor - User Manual Verification 'Extension & UI Implementation' (Protocol in workflow.md)**
 
-## Phase 2: Cookie & Bypass Logic
+## Phase 2: Cookie & Bypass Logic [checkpoint: 04d3210]
 Implement the backend logic to set the trusted device cookie and bypass MFA when it is present.
 
 - [x] **Task: Implement Cookie Setting Logic** 5675f83
