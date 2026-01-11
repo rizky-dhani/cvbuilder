@@ -3,7 +3,7 @@
 ## Phase 1: Environment & Filament Setup
 Establish the technical foundation by configuring the database and installing the primary UI framework.
 
-- [ ] **Task: Configure MySQL Database**
+- [x] **Task: Configure MySQL Database** e7f0ed6
     - [ ] Update `.env` and `config/database.php` for MySQL.
     - [ ] Verify connection using `php artisan db:show`.
 - [ ] **Task: Install Filament v4**
