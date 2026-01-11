@@ -18,7 +18,7 @@ Implement the backend logic to set the trusted device cookie and bypass MFA when
 
 - [x] **Task: Implement Cookie Setting Logic** 5675f83
 - [x] **Task: Implement MFA Bypass Check** 5675f83
-- [ ] **Task: Conductor - User Manual Verification 'Cookie & Bypass Logic' (Protocol in workflow.md)**
+- [x] **Task: Conductor - User Manual Verification 'Cookie & Bypass Logic' (Protocol in workflow.md)**
 
 ## Phase 3: Final Verification & Polish
 Ensure the implementation aligns with security standards and project guidelines.
