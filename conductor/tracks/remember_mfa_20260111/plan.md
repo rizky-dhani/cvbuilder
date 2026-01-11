@@ -16,14 +16,8 @@ Extend the default Filament Email MFA provider to include the "Remember Me" opti
 ## Phase 2: Cookie & Bypass Logic
 Implement the backend logic to set the trusted device cookie and bypass MFA when it is present.
 
-- [ ] **Task: Implement Cookie Setting Logic**
-    - [ ] Implementation Phase: Update the MFA submission logic to set a secure, encrypted cookie for 90 days when the checkbox is selected and the code is valid.
-    - [ ] Cache Optimization Phase: Run `php artisan filament:optimize-clear && php artisan optimize:clear`.
-    - [ ] Testing Phase: Write and run a test to verify the cookie is correctly set after a successful MFA challenge.
-- [ ] **Task: Implement MFA Bypass Check**
-    - [ ] Implementation Phase: Update the provider logic to check for the presence and validity of the trusted device cookie before initiating the email code flow.
-    - [ ] Cache Optimization Phase: Run `php artisan filament:optimize-clear && php artisan optimize:clear`.
-    - [ ] Testing Phase: Write and run a test to verify that subsequent logins from the same "device" (browser with cookie) bypass the MFA challenge.
+- [x] **Task: Implement Cookie Setting Logic** 5675f83
+- [x] **Task: Implement MFA Bypass Check** 5675f83
 - [ ] **Task: Conductor - User Manual Verification 'Cookie & Bypass Logic' (Protocol in workflow.md)**
 
 ## Phase 3: Final Verification & Polish
