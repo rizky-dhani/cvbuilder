@@ -18,6 +18,11 @@ class EditEducation extends EditRecord
             ->title('Education successfully updated');
     }
 
+    protected function getRedirectUrl(): string
+    {
+        return $this->getResource()::getUrl('index');
+    }
+
     protected function getHeaderActions(): array
     {
         return [

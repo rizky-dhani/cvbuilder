@@ -42,7 +42,8 @@ test('can create certification', function () {
         ->set('data.url', $newData->url)
         ->call('create')
         ->assertHasNoFormErrors()
-        ->assertNotified('Certification successfully created');
+        ->assertNotified('Certification successfully created')
+        ->assertRedirect(CertificationResource::getUrl('index'));
 
     $this->assertDatabaseHas('certifications', [
         'user_id' => $this->user->id,

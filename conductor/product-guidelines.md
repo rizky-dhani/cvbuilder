@@ -16,6 +16,7 @@
 - **Live Feedback:** Provide real-time previews so users can see the impact of their changes immediately.
 - **Contextual Assistance:** Offer tips and examples (e.g., action verbs for work experience) at the point of entry.
 - **Personalized Notifications:** All Filament CRUD operations (Create, Edit, Delete) must provide success notifications that follow the format: "(resource) successfully (action)" (e.g., "Education successfully created", "Work experience successfully updated", "Skill successfully deleted").
+- **Consistent Redirection:** After successfully creating or updating a record in Filament, the user must be redirected back to the resource's index (list) page.
 
 ## Brand Values
 - **Organization:** The platform's primary value is bringing order to the chaotic process of career management.

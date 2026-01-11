@@ -17,6 +17,11 @@ class CreateSkill extends CreateRecord
             ->title('Skill successfully created');
     }
 
+    protected function getRedirectUrl(): string
+    {
+        return $this->getResource()::getUrl('index');
+    }
+
     protected function mutateFormDataBeforeCreate(array $data): array
     {
         $data['user_id'] = auth()->id();

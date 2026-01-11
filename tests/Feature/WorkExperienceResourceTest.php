@@ -44,7 +44,8 @@ test('can create work experience', function () {
         ->set('data.description', $newData->description)
         ->call('create')
         ->assertHasNoFormErrors()
-        ->assertNotified('Work experience successfully created');
+        ->assertNotified('Work experience successfully created')
+        ->assertRedirect(WorkExperienceResource::getUrl('index'));
 
     $this->assertDatabaseHas(WorkExperience::class, [
         'user_id' => $this->user->id,

@@ -40,7 +40,8 @@ test('can create skill', function () {
         ->set('data.category', $newData->category)
         ->call('create')
         ->assertHasNoFormErrors()
-        ->assertNotified('Skill successfully created');
+        ->assertNotified('Skill successfully created')
+        ->assertRedirect(SkillResource::getUrl('index'));
 
     $this->assertDatabaseHas('skills', [
         'user_id' => $this->user->id,

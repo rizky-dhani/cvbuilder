@@ -43,7 +43,8 @@ test('can create education record', function () {
         ->set('data.description', $newData->description)
         ->call('create')
         ->assertHasNoFormErrors()
-        ->assertNotified('Education successfully created');
+        ->assertNotified('Education successfully created')
+        ->assertRedirect(EducationResource::getUrl('index'));
 
     $this->assertDatabaseHas('education', [
         'user_id' => $this->user->id,
