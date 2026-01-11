@@ -7,7 +7,7 @@ Prepare the underlying structure to support the new security features.
     - [ ] Implementation Phase: Create and run a migration to add `has_email_authentication` (boolean, default false) to the `users` table.
     - [ ] Cache Optimization Phase: Run `php artisan filament:optimize-clear && php artisan optimize:clear`.
     - [ ] Testing Phase: Verify the column exists in the database schema.
-- [ ] **Task: Update User Model for MFA**
+- [x] **Task: Update User Model for MFA** a521b78
     - [ ] Implementation Phase: Update `User.php` to implement `HasEmailAuthentication` and use the `InteractsWithEmailAuthentication` trait.
     - [ ] Cache Optimization Phase: Run `php artisan filament:optimize-clear && php artisan optimize:clear`.
     - [ ] Testing Phase: Write a unit test to ensure the model correctly handles the MFA trait/interface.
