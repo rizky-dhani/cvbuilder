@@ -22,7 +22,7 @@ Implement the data structure and management interface for professional history.
     - [ ] Write Unit Tests for `WorkExperience` model (relationships, validation).
     - [ ] Implement `WorkExperience` model, migration, and factory.
     - [ ] Run migrations.
-- [x] **Task: Work Experience Filament Resource** 9ba9dc0
+- [x] **Task: Work Experience Filament Resource** 9ba9dc0, b960d77
     - [ ] Write Feature Tests for `WorkExperienceResource` (Access control, CRUD).
     - [ ] Implement `WorkExperienceResource` with appropriate form/table schema.
 - [ ] **Task: Conductor - User Manual Verification 'Work Experience Module' (Protocol in workflow.md)**
