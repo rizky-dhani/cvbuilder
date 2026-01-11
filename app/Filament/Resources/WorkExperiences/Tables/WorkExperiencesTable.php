@@ -6,6 +6,7 @@ use Filament\Actions\BulkActionGroup;
 use Filament\Actions\DeleteAction;
 use Filament\Actions\DeleteBulkAction;
 use Filament\Actions\EditAction;
+use Filament\Notifications\Notification;
 use Filament\Tables\Columns\IconColumn;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Table;
@@ -44,7 +45,12 @@ class WorkExperiencesTable
             ])
             ->recordActions([
                 EditAction::make(),
-                DeleteAction::make(),
+                DeleteAction::make()
+                    ->successNotification(
+                        fn (Notification $notification, $record): Notification => $notification
+                            ->title('Work experience removed')
+                            ->body('The work experience at ' . $record->company . ' has been removed, ' . auth()->user()->name . '.'),
+                    ),
             ])
             ->toolbarActions([
                 BulkActionGroup::make([
