@@ -50,7 +50,7 @@ Implement the data structure and management interface for skills and professiona
     - [ ] Implement `Certification` model, migration, factory, and Filament resource.
 - [x] **Task: Conductor - User Manual Verification 'Skills & Certifications Module' (Protocol in workflow.md)**
 
-## Phase 5: Dashboard Integration & Polishing
+## Phase 5: Dashboard Integration & Polishing [checkpoint: e30c4e4]
 Finalize the user experience and ensure seamless navigation.
 
 - [x] **Task: Dashboard Customization** 697902c
