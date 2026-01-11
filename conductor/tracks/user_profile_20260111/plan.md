@@ -7,9 +7,9 @@ Establish the technical foundation by configuring the database and installing th
     - [ ] Update `.env` and `config/database.php` for MySQL.
     - [ ] Verify connection using `php artisan db:show`.
 - [x] **Task: Install Filament v4** c56a404
-    - [ ] Run `composer require filament/filament:"^4.0" -W`.
-    - [ ] Install Filament panel: `php artisan filament:install --panels`.
-    - [ ] Configure the default panel to handle authentication.
+    - [x] Run `composer require filament/filament:"^4.0" -W`.
+    - [x] Install Filament panel: `php artisan filament:install --panels`.
+    - [x] Configure the `AdminPanel` to handle authentication (login, registration, etc.).
 - [ ] **Task: Conductor - User Manual Verification 'Environment & Filament Setup' (Protocol in workflow.md)**
 
 ## Phase 2: Work Experience Module

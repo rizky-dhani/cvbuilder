@@ -12,7 +12,7 @@ This track focuses on establishing the core data foundation for the CV Builder. 
 ## Technical Requirements
 
 ### 1. Authentication & Dashboard (Filament)
-- **Panel:** Create a Filament panel (e.g., `AppPanel`) to serve as the user dashboard.
+- **Panel:** Use the default `AdminPanel` to serve as the user dashboard.
 - **Authentication:** Utilize Filament's built-in authentication features.
 - **Access Control:** Ensure users can only see and manage their own records.
 
