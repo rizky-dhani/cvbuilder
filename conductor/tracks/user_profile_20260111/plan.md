@@ -45,7 +45,7 @@ Implement the data structure and management interface for skills and professiona
 - [x] **Task: Skills Model & Resource** 870202d
     - [ ] Write Tests for `Skill` model and resource.
     - [ ] Implement `Skill` model, migration, factory, and Filament resource.
-- [ ] **Task: Certifications Model & Resource**
+- [x] **Task: Certifications Model & Resource** 8f93aec
     - [ ] Write Tests for `Certification` model and resource.
     - [ ] Implement `Certification` model, migration, factory, and Filament resource.
 - [ ] **Task: Conductor - User Manual Verification 'Skills & Certifications Module' (Protocol in workflow.md)**
