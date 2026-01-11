@@ -53,7 +53,7 @@ Implement the data structure and management interface for skills and professiona
 ## Phase 5: Dashboard Integration & Polishing
 Finalize the user experience and ensure seamless navigation.
 
-- [ ] **Task: Dashboard Customization**
+- [x] **Task: Dashboard Customization** 697902c
     - [ ] Implement model, migration, factory and Filament resource (if any needed) or update Dashboard logic.
     - [ ] Run `php artisan filament:optimize-clear && php artisan optimize:clear`.
     - [ ] Write and run tests.
