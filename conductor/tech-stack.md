@@ -3,7 +3,7 @@
 ## Core Backend
 - **Language:** PHP 8.4
 - **Framework:** Laravel 12.x
-- **Database:** MySQL
+- **Database:** MariaDB
 - **Tooling:** Laravel Sail (Docker-based development environment)
 
 ## Frontend & UI
