@@ -13,13 +13,13 @@ Prepare the underlying structure to support the new security features.
     - [ ] Testing Phase: Write a unit test to ensure the model correctly handles the MFA trait/interface.
 - [x] **Task: Conductor - User Manual Verification 'Database & Model Preparation' (Protocol in workflow.md)**
 
-## Phase 2: Filament Feature Activation
+## Phase 2: Filament Feature Activation [checkpoint: f830107]
 Enable the profile and multi-factor authentication features in the UI.
 
-- [ ] **Task: Enable Profile & Email MFA in AdminPanelProvider**
-    - [ ] Implementation Phase: Update `AdminPanelProvider.php` to enable the `profile()` feature and `multiFactorAuthentication()` with `EmailAuthentication::make()`.
-    - [ ] Cache Optimization Phase: Run `php artisan filament:optimize-clear && php artisan optimize:clear`.
-    - [ ] Testing Phase: Write a feature test to ensure the profile link is visible and the MFA settings are present.
+- [x] **Task: Enable Profile & Email MFA in AdminPanelProvider** f830107
+    - [x] Implementation Phase: Update `AdminPanelProvider.php` to enable the `profile()` feature and `multiFactorAuthentication()` with `EmailAuthentication::make()`.
+    - [x] Cache Optimization Phase: Run `php artisan filament:optimize-clear && php artisan optimize:clear`.
+    - [x] Testing Phase: Write a feature test to ensure the profile link is visible and the MFA settings are present.
 - [ ] **Task: Conductor - User Manual Verification 'Filament Feature Activation' (Protocol in workflow.md)**
 
 ## Phase 3: Verification & Polish
