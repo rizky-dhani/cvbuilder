@@ -6,10 +6,13 @@ Establish the technical foundation by configuring the database and installing th
 - [x] **Task: Configure MySQL Database** e7f0ed6
     - [ ] Update `.env` and `config/database.php` for MySQL.
     - [ ] Verify connection using `php artisan db:show`.
-- [x] **Task: Install Filament v4** 238a651
+- [ ] **Task: Install Filament v4** 238a651
     - [x] Run `composer require filament/filament:"^4.0" -W`.
     - [x] Install Filament panel: `php artisan filament:install --panels`.
     - [x] Configure the `AdminPanel` to handle authentication (login, registration, etc.).
+- [x] **Task: Configure Mailpit for Local Email Testing** 0216820
+    - [ ] Update `.env` with Mailpit SMTP settings.
+    - [ ] Verify access to Mailpit UI (usually port 8025).
 - [ ] **Task: Conductor - User Manual Verification 'Environment & Filament Setup' (Protocol in workflow.md)**
 
 ## Phase 2: Work Experience Module
